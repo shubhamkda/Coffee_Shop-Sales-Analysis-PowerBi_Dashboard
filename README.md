@@ -123,18 +123,76 @@ Power BI's interactive features allow users to:
 * Compare different business dimensions  
 * Analyze performance across different time periods  
 
+## 📊 Dashboard Components
+The report consists of multiple interactive visuals designed to provide a comprehensive view of coffee shop sales performance.
+### 🔹 Month Filter
+A month-based slicer allows users to select the period they want to analyze.
+### 🔹 KPI Cards
+The KPI section displays major business metrics including:
+* Total Sales  
+* Total Orders  
+* Total Quantity Sold
+The KPIs also provide **month over month comparisons** to help identify changes in performance.
+### 🔹 Sales Trend by Date
+A line chart displays sales movement across individual dates.  
+An average sales reference line is included to provide context for identifying days with relatively higher or lower sales.
+### 🔹 Weekday vs. Weekend Sales
+A donut chart illustrates the proportion of sales generated during:
+* Weekdays  
+* Weekends  
+This helps identify differences in customer purchasing behavior throughout the week.
+### 🔹 Sales by Product Category
+A bar chart compares revenue across major product categories such as:
+* Coffee  
+* Tea  
+* Bakery  
+* Other available categories  
+This view helps identify categories contributing significantly to overall revenue.
+### 🔹 Sales by Product Type
+A more detailed product-level analysis breaks down sales by individual product types within each category.  
+This enables users to identify products that generate higher sales volumes or revenue.  
+### 🔹 Sales by Store Location
+Sales performance is compared across different store locations.  
+The visualization also incorporates month-over-month changes, making it easier to understand how individual locations are performing over time.  
+### 🔹 Sales by Day & Hour
+A heatmap visualizes sales activity across different days of the week and hours of the day.  
+* This helps identify:  
+* Peak sales hours  
+* High-performing days  
+* Low-activity periods  
+* Potential opportunities for operational optimization  
 
+## 🎯 Business Insights
+The dashboard can be used by business and operations teams to answer questions such as:
 
+* Which products generate the highest sales?  
+* Which product categories contribute most to revenue?  
+* Which store locations are performing strongly?  
+* How does sales performance change month over month?  
+* Are weekends generating more sales than weekdays?  
+* What are the busiest hours of the day?  
+* Which periods experience comparatively lower sales?  
+* Where could staffing or operational resources be optimized?  
 
+## 🧰 Tools & Technologies
+* ower BI Desktop  
+* Power Query  
+* DAX  
+* Data Modeling  
+* CSV / Excel  
+* Data Visualization  
+* Business Intelligence & Analytics  
 
+## 📁 Project Structure
 
-
-
-
-
-
-
-
+Coffee-Shop-Sales-Dashboard/  
+│  
+├── CoffeeShopSalesDashboard.pbix  
+├── Dataset/  
+│   └── coffee_shop_sales.csv  
+├── Screenshots/  
+│   └── dashboard.png  
+└── README.md  
 
 
 
