@@ -190,7 +190,7 @@ Coffee-Shop-Sales-Dashboard/
 ├── CoffeeShopSalesDashboard.pbix  
 ├── Dataset/  
 │   └── coffee_shop_sales.csv  
-├── Screenshots/  
+├── Screenshot/  
 │   └── dashboard.png  
 └── README.md  
 
