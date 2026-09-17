@@ -56,8 +56,64 @@ Total Quantity Sold = SUM(Transactions[Transaction_Qty])
 **Average Sales**
 Calculates the average daily sales value based on the selected date context.  
 ```text
-Average Sales = AVERAGEX( ALLSELECTED(Transactions[transaction_date]), 'Date Table'[Total Sales] )
+Average Sales = AVERAGEX(ALLSELECTED(Transactions[transaction_date]), 'Date Table'[Total Sales])
 ```
+
+### Month-over-Month Analysis
+**Previous Month Sales**
+Retrieves the sales value from the preceding month.  
+```text
+Previous Month Sales = CALCULATE('Transactions'[CM],DATEADD('Date Table'[Date], -1, MONTH))
+```
+**Previous Month Orders**
+Returns the order count for the previous month.  
+```text
+CALCULATE('Transactions'[CM Orders],DATEADD('Date Table'[Date], -1, MONTH))
+```
+**Previous Month Quantity**
+Calculates the quantity sold during the previous month.  
+```text
+Previous Month Quantity = CALCULATE('Transactions'[CM Qty],DATEADD('Date Table'[Date], -1,MONTH))
+```
+
+### Current Month Sales
+The following calculation dynamically identifies the selected month and calculates the month-to-date sales.
+```text
+Current Month Sales = VAR selected_month = SELECTEDVALUE('Date Table'[Month]) RETURN TOTALMTD( CALCULATE(SUM(Transactions[Sales]),'Date Table'[Month] = selected_month),'Date Table'[Date])
+```
+
+## 🛠️ Prerequisites
+Before using or modifying this project, make sure you have:
+### Power BI Desktop
+Install the latest version of Power BI Desktop to open and work with the ```text .pbix ``` file.
+### Sales Dataset
+A CSV or Excel dataset containing coffee shop transaction information with fields comparable to those described in the **Dataset** section.
+### Basic Power BI Knowledge
+* A basic understanding of the following is recommended:  
+* Data import and transformation  
+* Power Query  
+* Data modeling  
+* DAX measures  
+* Creating and formatting Power BI visuals  
+* Using filters and slicers  
+
+## 🚀 Installation & Setup
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
