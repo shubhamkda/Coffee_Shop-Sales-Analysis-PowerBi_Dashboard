@@ -97,12 +97,31 @@ A CSV or Excel dataset containing coffee shop transaction information with field
 * Creating and formatting Power BI visuals  
 * Using filters and slicers  
 
-## 🚀 Installation & Setup
+## 📈 How to Use the Dashboard
 
+### Select the Analysis Period
+Use the **Month** slicer/dropdown to select the month you want to analyze.  
+The dashboard can be used to examine a particular month, with the default view configured for **May 2023**.  
 
+### Analyze Business Performance
+Use the dashboard visuals to explore:
+* Overall sales performance  
+* Number of orders  
+* Product quantity sold  
+* Daily sales movement  
+* Product category performance  
+* Product type performance  
+* Store-level sales  
+* Weekday vs. weekend sales  
+* Sales distribution by day and hour  
 
-
-
+### Interactive Analysis
+Power BI's interactive features allow users to:
+* Apply filters  
+* Drill into visual data  
+* Hover over charts for additional information  
+* Compare different business dimensions  
+* Analyze performance across different time periods  
 
 
 
