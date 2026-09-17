@@ -195,8 +195,10 @@ Coffee-Shop-Sales-Dashboard/
 └── README.md  
 
 
-
-
+## Dashboard Preview
+<img src="images/BI_Dashboard.png" 
+     alt="Coffee Sales Dashboard" 
+     width="900">
 
 
 
